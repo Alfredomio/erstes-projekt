@@ -1,7 +1,7 @@
 package de.telekom.sea7;
 
 public class ViewKonto {
-	private ModelKonto modelkonto;
+	private Zahlung modelkonto;
 
 	public void Kontoanzeigen() {
 	System.out.println("Sicht Viewkonto: " +modelkonto);
@@ -9,11 +9,11 @@ public class ViewKonto {
 	System.out.println("IBAN: "+modelkonto.getIban());
 	}
 
-	public ModelKonto getModelkonto() {
+	public Zahlung getModelkonto() {
 	return modelkonto;
 	}
 
-	public void setModelkonto(ModelKonto amodelkonto) {
+	public void setModelkonto(Zahlung amodelkonto) {
 	this.modelkonto = amodelkonto;
 	}
 }

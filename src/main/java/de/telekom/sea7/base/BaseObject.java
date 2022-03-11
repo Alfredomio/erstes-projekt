@@ -63,8 +63,8 @@ public class BaseObject /* extends Object */ {
 		return parent;
 	}
 
-	public void setParent(Object parent) {
+	/*public void setParent(Object parent) { verboten, den von außen zu setzen
 		this.parent = parent;
-	}
+	}*/
 
 }

@@ -11,7 +11,7 @@ public class Application extends BaseObject {
 		Auto auto = new Auto(this, 2);
 		//System.out.println(auto.toString());
 
-		System.out.println(auto.getParent());
+		System.out.println("Und der Parent ist: ->#" + auto.getParent() + "#<-");
 		//auto.getParent().run();
 	}
 
